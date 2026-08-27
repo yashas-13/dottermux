@@ -21,6 +21,25 @@ Multi-threaded web scraper for Nobroker.in Bangalore rental property listings. E
 - Immediate Possession
 - Phone Number (if available/authenticated)
 
+## Termux Setup
+
+```bash
+# Install Python + dependencies
+pkg install python
+pip install beautifulsoup4 requests progressbar
+
+# Copy Termux config (extra keys with DRAWER ☰ button)
+termux-setup-storage
+cp -r .termux ~ 2>/dev/null || mkdir -p ~/.termux
+termux-reload-settings
+```
+
+### Extra Keys Row
+- `DRAWER ☰` — opens side tray → tap `+` for new session
+- `KEYBOARD ⌨` — toggles soft keyboard
+- `PASTE ⎘` — paste from clipboard
+- `Ctrl+Alt+T` — create new session (hardware keyboard)
+
 ## Getting Started
 
 1. **Install Dependencies**:
