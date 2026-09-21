@@ -1,0 +1,11 @@
+{
+  "downloaded": [
+    "dubai_bayut_properties.csv",
+    "CS-JAM_466DataSet_bayut_selling_properties.csv (from https://raw.githubusercontent.com/CS-JAM/466DataSet/main/bayut_selling_properties.csv)",
+    "dubai_buyers.csv (existing, contains Dubai terms)",
+    "dubai_bayut_properties.csv (existing, contains Dubai terms)",
+    "CS-JAM_466DataSet_bayut_selling_properties.csv (existing, contains Dubai terms)"
+  ],
+  "skipped": [],
+  "failed": []
+}
